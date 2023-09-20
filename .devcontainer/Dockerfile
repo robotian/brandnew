@@ -40,9 +40,5 @@ RUN git clone -b humble-devel https://github.com/husky/husky.git
 
 WORKDIR /home/$USERNAME/workspace
 
-RUN sudo apt-get update
-RUN rosdep update
-RUN rosdep install -y --from-paths . --ignore-src 
-RUN /bin/bash -c "source /opt/ros/humble/setup.sh && colcon build"
 
 
