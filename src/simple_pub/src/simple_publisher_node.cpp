@@ -2,6 +2,9 @@
 //       This is a very simple topic publisher
 ///////////////////////////////////////////////////////////////
 
+
+////////   This comment is written in LOCAL
+
 #include <chrono>
 #include <functional>
 #include <memory>
